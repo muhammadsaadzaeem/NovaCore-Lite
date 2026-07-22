@@ -1,6 +1,6 @@
 # NovaCore-Lite
 
-NovaCore-Lite is a fixed-function FPGA 3D graphics accelerator written in Verilog.
+NovaCore-Lite is a fixed-function FPGA 3D graphics accelerator implemented in Verilog for the Zynq-7000 platform.
 
 It renders a rotating, filled, lit, and depth-tested cube through HDMI using a custom hardware graphics pipeline.
 
@@ -31,3 +31,7 @@ triangle_engine.v    Triangle rasterization and per-pixel depth interpolation
 novacore_top.v       Top-level framebuffer, depth-buffer, video, and HDMI logic
 your_constraints.xdc FPGA pin and timing constraints
 rotating_cube.mp4    Hardware demonstration video
+
+## Demo
+
+[Watch the rotating cube hardware demo](./rotating_cube.mp4)
