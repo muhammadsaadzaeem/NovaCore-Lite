@@ -26,12 +26,12 @@ It renders a rotating, filled, lit, and depth-tested cube through HDMI using a c
 ## Project Structure
 
 ```text
-draw_engine.v        Cube generation, rotation, lighting, culling, and control
-triangle_engine.v    Triangle rasterization and per-pixel depth interpolation
-novacore_top.v       Top-level framebuffer, depth-buffer, video, and HDMI logic
-your_constraints.xdc FPGA pin and timing constraints
-rotating_cube.mp4    Hardware demonstration video
+draw_engine.v         Cube generation, rotation, lighting, culling, and control
+triangle_engine.v     Triangle rasterization and per-pixel depth interpolation
+novacore_top.v        Top-level framebuffer, depth-buffer, video, and HDMI logic
+novacore_lite.xdc     FPGA pin and timing constraints
+rotating_cube.mp4     Hardware demonstration video
 
 ## Demo
 
-[Watch the rotating cube hardware demo](./rotating_cube.mp4)
+🎥 [Watch NovaCore-Lite running on FPGA](./rotating_cube.mp4)
