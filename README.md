@@ -26,6 +26,8 @@ It renders a rotating, filled, lit, and depth-tested cube through HDMI using a c
 ## Project Structure
 
 ```text
-rtl/          Verilog source files
-constraints/  FPGA constraints file
-demo/         Hardware demonstration video
+draw_engine.v        Cube generation, rotation, lighting, culling, and control
+triangle_engine.v    Triangle rasterization and per-pixel depth interpolation
+novacore_top.v       Top-level framebuffer, depth-buffer, video, and HDMI logic
+your_constraints.xdc FPGA pin and timing constraints
+rotating_cube.mp4    Hardware demonstration video
