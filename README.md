@@ -31,3 +31,20 @@ triangle_engine.v     Triangle rasterization and per-pixel depth interpolation
 novacore_top.v        Top-level framebuffer, depth-buffer, video, and HDMI logic
 novacore_lite.xdc     FPGA pin and timing constraints
 rotating_cube.mp4     Hardware demonstration video
+```
+
+## Demo
+
+🎥 [Watch NovaCore-Lite running on FPGA](./rotating_cube.mp4)
+
+## Current Limitations
+
+- Cube geometry is currently hardcoded
+- Fixed-function rendering pipeline
+- No texture mapping
+- No perspective projection
+- No external mesh loading
+
+## Author
+
+Muhammad Saad Zaeem
